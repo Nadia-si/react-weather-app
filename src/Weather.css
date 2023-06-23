@@ -25,11 +25,9 @@
   list-style: none;
 }
 
-.weather img {
+.weather canvas {
   display: inline-block;
-  height: 64px;
   margin-right: 5px;
-  width: 64px;
   margin-top: -36px;
 }
 
