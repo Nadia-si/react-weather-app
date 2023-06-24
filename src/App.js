@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Sydney" />
+        <Weather defaultCity="Stockholm" />
         <footer>
           This project is coded by Nadia Simbi is open-sourced on{" "}
           <a
@@ -15,6 +15,14 @@ export default function App() {
             rel="noreferrer"
           >
             Github
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://sparkly-praline-f142f4.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>

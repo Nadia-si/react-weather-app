@@ -5,12 +5,12 @@ export default function WeatherIcon(props) {
   const codeMapping = {
     "01d": "CLEAR_DAY",
     "01n": "CLEAR_NIGTH",
-    "02d": "PARTLY_CLOUD_DAY",
-    "02n": "PARTLY_CLOUD_NIGTH",
-    "03d": "PARTLY_CLOUD_DAY",
-    "03n": "PARTLY_CLOUD_NIGTH",
-    "04d": "CLOUD",
-    "04n": "CLOUD",
+    "02d": "PARTLY_CLOUDY_DAY",
+    "02n": "PARTLY_CLOUDY_NIGTH",
+    "03d": "PARTLY_CLOUDY_DAY",
+    "03n": "PARTLY_CLOUDY_NIGTH",
+    "04d": "CLOUDY",
+    "04n": "CLOUDY",
     "09d": "RAIN",
     "09n": "RAIN",
     "10d": "RAIN",
@@ -22,6 +22,7 @@ export default function WeatherIcon(props) {
     "50d": "FOG",
     "50n": "FOG",
   };
+
   return (
     <ReactAnimatedWeather
       icon={codeMapping[props.code]}
