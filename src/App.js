@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Stockholm" />
         <footer>
-          This project is coded by Nadia Simbi is open-sourced on{" "}
+          This project is coded by Nadia Simbi, and is open-sourced on{" "}
           <a
             href="https://github.com/Nadia-si/react-weather-app"
             target="_blank"

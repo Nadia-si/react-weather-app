@@ -6,7 +6,11 @@
 .App footer {
   font-size: 13px;
   margin: 10px 0;
+  text-align: center;
 }
 a {
   text-decoration: none;
+}
+.container {
+  background-color: #c6ebf5;
 }
